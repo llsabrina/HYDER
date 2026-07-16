@@ -1,0 +1,13 @@
+id_aluno,nome,curso,semestre,status,mensalidade
+H001,Ana Lima,Big Data,3,ativo,2200
+H002,Carlos Souza,Administração,1,ativo,1800
+H003,Fernanda Reis,Logística,5,trancado,0
+H005,Isabela Cruz,Ciência Analítica,4,ativo,2400
+H006,João Alves,Processos Gerenciais,1,ativo,1700
+H007,Larissa Nunes,Big Data,6,ativo,2500
+H008,Marcos Pinto,Administração,3,ativo,2000
+H010,Pedro Barros,Recursos Humanos,4,ativo,1950
+H011,Rafaela Dias,Ciência Analítica,1,ativo,2300
+H012,Thiago Rocha,Processos Gerenciais,5,desistente,0
+H013,Vanessa Lopes,Administração,2,desistente,0
+H014,Vinícius Cardoso,Big Data,3,ativo,2400
