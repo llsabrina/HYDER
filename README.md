@@ -1,4 +1,5 @@
-## 🎓 Projeto Hyder
+## 🌌 Universidade Hyder🌌
+
 ## 📌 Sobre o projeto
 
 Projeto criado do zero com dados de uma universidade fictícia chamada Hyder, desenvolvida com o propósito de automatizar processos de ingressos e evasões. O sistema controla o lucro total gerado pelos alunos ativos ao longo de 4 meses (janeiro a abril), além de contabilizar o total de trancamentos e desistências no período.
