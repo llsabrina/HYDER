@@ -25,11 +25,11 @@ Saída — hyder_relatorio.csv (consolidado dos 4 meses):
 id_aluno, nome, curso, semestre, status, mensalidade, mes
 
 ## 📊 Resultados
-💰 Mensalidade total (alunos ativos): R$ 98.500,00
-✅ Alunos ativos: 47
-❌ Desistentes: 4
-🔒 Trancados: 2
-📁 Total processado: 53 registros (jan-abr)
+💰 Mensalidade total (alunos ativos): R$ 98.500,00|
+✅ Alunos ativos: 47|
+❌ Desistentes: 4|
+🔒 Trancados: 2|
+📁 Total processado: 53 registros (jan-abr)|
 
 ## 🚀 Como executar
 Clone o repositório
