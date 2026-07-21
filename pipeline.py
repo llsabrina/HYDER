@@ -9,7 +9,7 @@ try:
 
     save_relatorio = []
 
-    for arquivo in vari.glob("*.csv"):
+    for arquivo in vari.glob("matriculas_*.csv"):
         df_alunos = pd.read_csv(arquivo)
         mes = arquivo.stem.split("_")[1]
         df_alunos["mes"] = mes
@@ -17,6 +17,9 @@ try:
         logging.info("Arquivo processado: %s", arquivo)
 
     pd.concat(save_relatorio).to_csv("C:/Users/sabri/Desktop/up level/python/hyder/hyder_relatorio.csv", index=False)
+    print(len(pd.concat(save_relatorio)), "linhas processadas e salvas no arquivo hyder_relatorio.csv")
     logging.info("Relatório gerado com sucesso!")
 except Exception as e:
     logging.error("Erro ao processar arquivos: %s", str(e))
+
+
