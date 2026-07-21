@@ -10,35 +10,41 @@ O projeto Hyder nasceu da necessidade de leitura rápida de dados para um fecham
 O pipeline foi construído para ser idempotente: pode ser executado múltiplas vezes sem gerar dados duplicados, garantindo confiabilidade no processo de fechamento diário.
 
 ## 🛠️ Tecnologias utilizadas
-🐍 Linguagem:  Python
-📚 Bibliotecas: Pandas, logging, pathlib
-🐙 Versionamento: Git, GitHub
+-🐍 Linguagem:  Python
+-📚 Bibliotecas: Pandas, logging, pathlib
+-🐙 Versionamento: Git, GitHub
 
 ## 📂 Estrutura de dados
 
 Entrada — matriculas_janeiro.csv, matriculas_fevereiro.csv, matriculas_marco.csv, matriculas_abril.csv:
-
+```bash
 id_aluno, nome, curso, semestre, status, mensalidade
-
+```
 Saída — hyder_relatorio.csv (consolidado dos 4 meses):
-
+```bash
 id_aluno, nome, curso, semestre, status, mensalidade, mes
-
+```
 ## 📊 Resultados
-💰 Mensalidade total (alunos ativos): R$ 98.500,00|
-✅ Alunos ativos: 47|
-❌ Desistentes: 4|
-🔒 Trancados: 2|
-📁 Total processado: 53 registros (jan-abr)|
+-💰 Mensalidade total (alunos ativos): R$ 98.500,00
+-✅ Alunos ativos: 47
+-❌ Desistentes: 4
+-🔒 Trancados: 2
+-📁 Total processado: 53 registros (jan-abr)
 
 ## 🚀 Como executar
-Clone o repositório
-Instale as dependências: pip install pandas
-Coloque os arquivos matriculas_*.csv na pasta do projeto
-Execute: python pipeline_hyder.py
-O relatório consolidado será gerado em hyder_relatorio.csv
+-Clone o repositório
+-Instale as dependências: pip install pandas
+-Coloque os arquivos matriculas_*.csv na pasta do projeto
+-Execute: python pipeline_hyder.py
+-O relatório consolidado será gerado em hyder_relatorio.csv
 
 ## 🔜 Próximos passos
-Análise avançada em SQL
-Dashboard interativo em Power BI
-Migração para Cloud (AWS ou GCP)
+-Análise avançada em SQL
+-Dashboard interativo em Power BI
+-Migração para Cloud (AWS ou GCP)
+
+## 👩‍💻 Autora
+
+**Sabrina Alessandra Castro**  
+Engenharia de Dados · em construção  
+[github.com/llsabrina](https://github.com/llsabrina)
